@@ -139,7 +139,7 @@ Normalised connections
 <table>
   <tr>
     <td>Absolute mock abundances</td>
-    <td>Proportopnal mock abundances</td>
+    <td>Proportional mock abundances</td>
   </tr>
   <tr>
     <td valign="top"><img src="../figures/mock_abundances.png"></td>

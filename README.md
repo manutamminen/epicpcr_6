@@ -4,8 +4,8 @@ The aim of this experiment was to find an optimal concentration gradient for syn
 
 The following samples are included:
 
-| Sample name | Sample description: sample, emulsion, number of mock oligos, target  |
-| :--- | :--- |
+|Sample name|Sample type|Mock status|Magnetic status|Phylotype|
+| :--- | :--- | :--- | :--- | :--- |
 |BiolstdMockMag16S|Biological standard|Mocks|Magnetic selection|16S|
 |BiolstdMockMag18S|Biological standard|Mocks|Magnetic selection|18S|
 |BiolstdMockNomag16S|Biological standard|Mocks|No magnetic selection|16S|
