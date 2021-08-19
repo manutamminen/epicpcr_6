@@ -7,7 +7,7 @@ output: md_document
 
 ## Samples
 
-| Sample name | Sample description: sample, emulsion, number of mock oligos, target  |
+|Sample name|Samply type|Mock status|Magnetic status|Phylotype|
 | :--- | :--- |
 |BiolstdMockMag16S|Biological standard|Mocks|Magnetic selection|16S|
 |BiolstdMockMag18S|Biological standard|Mocks|Magnetic selection|18S|

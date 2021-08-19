@@ -1,14 +1,10 @@
 ## Samples
 
 <table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Sample name</th>
-<th style="text-align: left;">Sample description: sample, emulsion, number of mock oligos, target</th>
+<th style="text-align: left;">Samply type</th>
 </tr>
 </thead>
 <tbody>
