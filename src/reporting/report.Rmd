@@ -7,18 +7,32 @@ output: md_document
 
 ## Samples
 
-- BiolstdM100XDilBC10e4fluo: Biological standard-Fluorinated oil, 30 000 standard copies
-- BiolstdM100XDilBC10e3fluo: Biological standard-Fluorinated oil, 3000 standard copies
-- BiolstdM100XDilBC10e4mine: Biological standard-Mineral oil, 30 000 standard copies
-- BiolstdM100XDilBC10e3mine: Biological standard-Mineral oil, 3000 standard copies
-- WWBiolstdM100XDilBC10e4fluo: Wastewater + Biological standard-Fluorinated oil, 30 000 standard copies
-- WWBiolstdM100XDilBC10e3fluo: Wastewater + Biological standard-Fluorinated oil, 3000 standard copies
-- WWBiolstdM100XDilBC10e4mine: Wastewater + Biological standard-Mineral oil, 30 000 standard copies
-- WWBiolstdM100XDilBC10e3mine: Wastewater + Biological standard-Mineral oil, 3000 standard copies
-- WWM100XDilBC10e4fluo: Wastewater-Fluorinated oil, 30 000 standard copies
-- WWM100XDilBC10e3fluo: Wastewater-Fluorinated oil, 3000 standard copies
-- WWM100XDilBC10e4mine: Wastewater-Mineral oil, 30 000 standard copies
-- WWM100XDilBC10e3mine: Wastewater-Mineral oil, 3000 standard copies
+| Sample name | Sample description: sample, emulsion, number of mock oligos, target  |
+| :--- | :--- |
+|BiolstdMockMag16S|Biological standard|Mocks|Magnetic selection|16S|
+|BiolstdMockMag18S|Biological standard|Mocks|Magnetic selection|18S|
+|BiolstdMockNomag16S|Biological standard|Mocks|No magnetic selection|16S|
+|BiolstdMockNomag18S|Biological standard|Mocks|No magnetic selection|18S|
+|BiolstdNomockMag16S|Biological standard|No mocks|Magnetic selection|16S|
+|BiolstdNomockMag18S|Biological standard|No mocks|Magnetic selection|18S|
+|BiolstdNomockNomag16S|Biological standard|No mocks|No magnetic selection|16S|
+|BiolstdNomockNomag18S|Biological standard|No mocks|No magnetic selection|18S|
+|BiolstdWWMockMag16S|WW + Biological standard|Mocks|Magnetic selection|16S|
+|BiolstdWWMockMag18S|WW + Biological standard|Mocks|Magnetic selection|18S|
+|BiolstdWWMockNomag16S|WW + Biological standard|Mocks|No magnetic selection|16S|
+|BiolstdWWMockNomag18S|WW + Biological standard|Mocks|No magnetic selection|18S|
+|BiolstdWWNomockMag16S|WW + Biological standard|No mocks|Magnetic selection|16S|
+|BiolstdWWNomockMag18S|WW + Biological standard|No mocks|Magnetic selection|18S|
+|BiolstdWWNomockNomag16S|WW + Biological standard|No mocks|No magnetic selection|16S|
+|BiolstdWWNomockNomag18S|WW + Biological standard|No mocks|No magnetic selection|18S|
+|WWMockMag16S|WW|Mocks|Magnetic selection|16S|
+|WWMockMag18S|WW|Mocks|Magnetic selection|18S|
+|WWMockNomag16S|WW|Mocks|No magnetic selection|16S|
+|WWMockNomag18S|WW|Mocks|No magnetic selection|18S|
+|WWNomockMag16S|WW|No mocks|Magnetic selection|16S|
+|WWNomockMag18S|WW|No mocks|Magnetic selection|18S|
+|WWNomockNomag16S|WW|No mocks|No magnetic selection|16S|
+|WWNomockNomag18S|WW|No mocks|No magnetic selection|18S|
 
 
 ## Barcode distributions
@@ -43,81 +57,81 @@ output: md_document
 
 The abundance columns are:
 
-- Only biological controls; 30 000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- WRhodoM100XDilBC10e5: Wastewater + biological controls; 30 000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- Only wastewater; 30 000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- Only biological controls; 3000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- WRhodoM100XDilBC10e6: Wastewater + biological controls; 3000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- Only wastewater; 3000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- Only biological controls; 30 000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- WRhodoM100XDilBC10e5: Wastewater + biological controls; 30 000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- Only wastewater; 30 000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- Only biological controls; 3000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- WRhodoM100XDilBC10e6: Wastewater + biological controls; 3000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- Only wastewater; 3000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
+- BiolstdMockMag
+- BiolstdWWMockMag
+- WWMockMag
+- BiolstdMockNomag
+- BiolstdWWMockNomag
+- WWMockNomag
+- BiolstdNomockMag
+- BiolstdWWNomockMag
+- WWNomockMag
+- BiolstdNomockNomag
+- BiolstdWWNomockNomag
+- WWNomockNomag
 
 <td valign="top"><img src="../figures/bact_abunds.png" ></td>
 <td valign="top"><img src="../figures/euk_abunds.png" ></td>
 
 
-## Tanglegram of dil10mine
+## Tanglegram of mockmag
 
 The abundance columns are:
 
-- Only biological controls; 30 000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- WRhodoM100XDilBC10e5: Wastewater + biological controls; 30 000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- Only wastewater; 30 000 standard copies; 1e4 barcode molecules; mineral oil emulsion
+- BiolstdMockMag
+- BiolstdWWMockMag
+- WWMockMag
 
 Non-normalised connections
-<td valign="top"><img src="../figures/dil10mine.png" ></td>
+<td valign="top"><img src="../figures/mockmag.png" ></td>
 
 Normalised connections
-<td valign="top"><img src="../figures/dil10mine_normalised.png" ></td>
+<td valign="top"><img src="../figures/mockmag_normalised.png" ></td>
 
 
-## Tanglegram of dil100mine
+## Tanglegram of mocknomag
 
 The abundance columns are:
 
-- Only biological controls; 3000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- WRhodoM100XDilBC10e6: Wastewater + biological controls; 3000 standard copies; 1e4 barcode molecules; mineral oil emulsion
-- Only wastewater; 3000 standard copies; 1e4 barcode molecules; mineral oil emulsion
+- BiolstdMockNomag
+- BiolstdWWMockNomag
+- WWMockNomag
 
 Non-normalised connections
-<td valign="top"><img src="../figures/dil100mine.png" ></td>
+<td valign="top"><img src="../figures/mocknomag.png" ></td>
 
 Normalised connections
-<td valign="top"><img src="../figures/dil100mine_normalised.png" ></td>
+<td valign="top"><img src="../figures/mocknomag_normalised.png" ></td>
 
 
-## Tanglegram of dil10fluo
+## Tanglegram of nomockmag
 
 The abundance columns are:
 
-- Only biological controls; 30 000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- WRhodoM100XDilBC10e5: Wastewater + biological controls; 30 000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- Only wastewater; 30 000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
+- BiolstdNomockMag
+- BiolstdWWNomockMag
+- WWNomockMag
 
 Non-normalised connections
-<td valign="top"><img src="../figures/dil10fluo.png" ></td>
+<td valign="top"><img src="../figures/nomockmag.png" ></td>
 
 Normalised connections
-<td valign="top"><img src="../figures/dil10fluo_normalised.png" ></td>
+<td valign="top"><img src="../figures/nomockmag_normalised.png" ></td>
 
 
-## Tanglegram of dil100fluo
+## Tanglegram of nomocknomag
 
 The abundance columns are:
 
-- Only biological controls; 3000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- WRhodoM100XDilBC10e6: Wastewater + biological controls; 3000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
-- Only wastewater; 3000 standard copies; 1e4 barcode molecules; fluorinated oil emulsion
+- BiolstdNomockNomag
+- BiolstdWWNomockNomag
+- WWNomockNomag
 
 Non-normalised connections
-<td valign="top"><img src="../figures/dil100fluo.png" ></td>
+<td valign="top"><img src="../figures/nomocknomag.png" ></td>
 
 Normalised connections
-<td valign="top"><img src="../figures/dil100fluo_normalised.png" ></td>
+<td valign="top"><img src="../figures/nomocknomag_normalised.png" ></td>
 
 
 ## Standard abundances
