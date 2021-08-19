@@ -7,8 +7,8 @@ output: md_document
 
 ## Samples
 
-|Sample name|Samply type|Mock status|Magnetic status|Phylotype|
-| :--- | :--- |
+|Sample name|Sample type|Mock status|Magnetic status|Phylotype|
+| :--- | :--- | :--- | :--- | :--- |
 |BiolstdMockMag16S|Biological standard|Mocks|Magnetic selection|16S|
 |BiolstdMockMag18S|Biological standard|Mocks|Magnetic selection|18S|
 |BiolstdMockNomag16S|Biological standard|Mocks|No magnetic selection|16S|
