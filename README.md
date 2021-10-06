@@ -1,4 +1,4 @@
-# epicPCR experiment May 28 2021
+# epicPCR experiment July 7 2021
 
 The aim of this experiment was to find an optimal concentration gradient for synthetic and biological standards and to optimize the barcode concentration
 
