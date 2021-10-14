@@ -46,10 +46,43 @@ Summary of the results available at https://github.com/manutamminen/epicpcr_6/bl
 - VSEARCH
 - SINA
 - FastTree
-- Tidyverse
+- Tidyverse and Ape (R Packages)
 
 Download the raw data into data/raw.
 
 Start the processing pipeline by invoking `snakemake --cores all report`.
 
 
+## Building using Singularity Container
+
+1. Install Singularity using the official guide at [sylabs.io](https://sylabs.io/guides/3.8/admin-guide/installation.html)
+2. Clone this repository to get the snakemake file (containing all the commands) and all the other scripts
+
+```
+git clone https://github.com/manutamminen/epicpcr_6.git
+```
+
+3. Move into folder
+
+```
+cd epicpcr_6
+```
+
+4. Make the setup script an executable and run it. This script downloads the raw data and the container to the appropriate sub-folders.
+
+```
+chmod +x setup.sh
+./setup.sh
+```
+
+5. Run the snakemake pipeline
+
+```
+singularity run container.sif snakemake --cores all report
+```
+
+### Extras
+
+1. If you would like to shell into the singularity container and then run commands from inside it, you can use the following command: `singularity shell container.sif`
+
+2. If you are working on windows using a vagrant virtual machine to run singularity, you might run into an insufficient memory problem (`Fatal error: Unable to allocate enough memory`) at some point. In this case, use instructions [here](https://ostechnix.com/how-to-increase-memory-and-cpu-on-vagrant-machine/) to increase memory allocated to the vagrant machine.
