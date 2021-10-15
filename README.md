@@ -56,6 +56,7 @@ Start the processing pipeline by invoking `snakemake --cores all report`.
 ## Building using Singularity Container
 
 1. Install Singularity using the official guide at [sylabs.io](https://sylabs.io/guides/3.8/admin-guide/installation.html)
+
 2. Clone this repository to get the snakemake file (containing all the commands) and all the other scripts
 
 ```
@@ -83,6 +84,8 @@ singularity run container.sif snakemake --cores all report
 
 ### Extras
 
-1. If you would like to shell into the singularity container and then run commands from inside it, you can use the following command: `singularity shell container.sif`
+1. The definition file for building the singularity container and the accompanying conda environment file are present in the `env` folder. To build the container yourself, move to the folder containing both `container.def` and `environment.yml` files, and use the following command: `sudo singularity build  container.sif container.def`
+ 
+2. If you would like to shell into the singularity container and then run commands from inside it, you can use the following command: `singularity shell container.sif`
 
-2. If you are working on windows using a vagrant virtual machine to run singularity, you might run into an insufficient memory problem (`Fatal error: Unable to allocate enough memory`) at some point. In this case, use instructions [here](https://ostechnix.com/how-to-increase-memory-and-cpu-on-vagrant-machine/) to increase memory allocated to the vagrant machine.
+3. If you are working on windows using a vagrant virtual machine to run singularity, you might run into an insufficient memory problem (`Fatal error: Unable to allocate enough memory`) at some point. In this case, use instructions [here](https://ostechnix.com/how-to-increase-memory-and-cpu-on-vagrant-machine/) to increase memory allocated to the vagrant machine. Some steps might require 6-7GB of RAM.
