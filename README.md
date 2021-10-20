@@ -55,7 +55,7 @@ Start the processing pipeline by invoking `snakemake --cores all report`.
 
 ## Building using Singularity Container
 
-1. Install Singularity using the official guide at [sylabs.io](https://sylabs.io/guides/3.8/admin-guide/installation.html)
+1. Install Singularity using the official guide at [sylabs.io](https://sylabs.io/guides/3.8/admin-guide/installation.html). On Windows, we recommend using WSL2 instead of the Vagrant VM recommended by Sylabs, and installing the latest version (>=3.8) of Singularity using [this link](https://github.com/sylabs/singularity/blob/master/INSTALL.md).
 
 2. Clone this repository to get the snakemake file (containing all the commands) and all the other scripts
 
