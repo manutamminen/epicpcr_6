@@ -40,6 +40,7 @@ Summary of the results available at https://github.com/manutamminen/epicpcr_6/bl
 
 # Building
 
+Singularity runs natively on linux, but is difficult to install and run on Windows and macOS. Docker is easier to install on all operating systems, but requires root access to run. So, we recommend building using Singularity on systems where root access is unavailable (like on supercomputing clusters) and Docker on all other systems.
 ## Dependencies
 
 - Snakemake
@@ -48,10 +49,11 @@ Summary of the results available at https://github.com/manutamminen/epicpcr_6/bl
 - FastTree
 - Tidyverse and Ape (R Packages)
 
-Download the raw data into data/raw.
+## Building without containers
 
-Start the processing pipeline by invoking `snakemake --cores all report`.
-
+1. Install dependencies
+2. Download the raw data into data/raw.
+3. Start the processing pipeline by invoking `snakemake --cores all report`.
 
 
 ## Building using Singularity Container
