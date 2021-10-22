@@ -11,9 +11,5 @@ cd ..
 
 # Archive the old final output file
 cd docs
-mv index.md index.md.archive
+mv index.md archived-report-md
 cd ..
-
-# Download the singularity container
-singularity pull library://jeevannavar/default/epicpcr-singularity-container:ver1
-mv epicpcr-singularity-container_ver1.sif container.sif
