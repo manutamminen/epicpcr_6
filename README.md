@@ -157,3 +157,5 @@ snakemake --cores all report
 3. If you would like to shell into the singularity container and then run commands from inside it, you can use the following command: `singularity shell container.sif`
 
 4. If you are working on windows using a vagrant virtual machine to run singularity, you might run into an insufficient memory problem (`Fatal error: Unable to allocate enough memory`) at some point. In this case, use instructions [here](https://ostechnix.com/how-to-increase-memory-and-cpu-on-vagrant-machine/) to increase memory allocated to the vagrant machine. Some steps might require 6-7GB of RAM.
+
+5. While using Docker, you might run into an insufficient memory problem as well. It may not be explicit, but processes will get killed during the run and the pipeline will not to run to completion. Either use the settings in Docker Desktop to increase memory to a value between 7-8GB or use the `--memory 7168m` flag with the `docker run` command to resolve the issue.
